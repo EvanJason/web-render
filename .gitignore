@@ -1,0 +1,29 @@
+# 依赖
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# 运行时产物（默认输出位置）
+shot-*.png
+shot-*.jpg
+page-*.pdf
+*.tmp
+
+# 本地测试输出
+out/
+test-output/
+*.log
+
+# 浏览器登录态（含 cookie，绝对不能提交）
+auth.json
+storage*.json
+.state/
+
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp

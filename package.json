@@ -1,0 +1,51 @@
+{
+  "name": "web-render",
+  "version": "1.0.0",
+  "description": "无头浏览器命令行工具：网页截图、整页长图、PDF 导出、正文转 Markdown、链接提取、页面 JS 求值",
+  "keywords": [
+    "playwright",
+    "headless-chrome",
+    "screenshot",
+    "pdf",
+    "markdown",
+    "scraper",
+    "cli",
+    "agent-skill"
+  ],
+  "license": "MIT",
+  "author": "深海如梦",
+  "homepage": "https://github.com/EvanJason/web-render#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvanJason/web-render.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EvanJason/web-render/issues"
+  },
+  "bin": {
+    "web-render": "bin/web-render.js"
+  },
+  "files": [
+    "bin/",
+    "scripts/",
+    "SKILL.md",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js",
+    "test": "node bin/web-render.js --version"
+  },
+  "dependencies": {
+    "playwright": "^1.50.0",
+    "turndown": "^7.2.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "os": [
+    "win32",
+    "darwin",
+    "linux"
+  ]
+}
